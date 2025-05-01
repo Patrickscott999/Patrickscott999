@@ -59,6 +59,11 @@
   <img src="https://komarev.com/ghpvc/?username=PatrickScott999&label=Profile%20views&color=FF00FF&style=flat" alt="Profile Views" />
 </div>
 
+<!-- Retro Arcade Border -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/PatrickScott999/PatrickScott999/main/assets/arcade-border.svg" alt="Arcade Border" width="100%" />
+</div>
+
 <style>
   .readme-typing-svg {
     font-family: 'Press Start 2P', cursive;
