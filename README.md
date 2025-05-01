@@ -42,9 +42,6 @@
 
 <div align="center">
   <h2>🎮 Multiplayer Mode</h2>
-  <a href="https://linkedin.com/in/patrick-scott" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
   <a href="https://public.tableau.com/app/profile/patrick.scott3217" target="_blank">
     <img src="https://img.shields.io/badge/Tableau Public-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau Public" />
   </a>
@@ -62,23 +59,4 @@
 <!-- Retro Arcade Border -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/PatrickScott999/PatrickScott999/main/assets/arcade-border.svg" alt="Arcade Border" width="100%" />
-</div>
-
-<style>
-  .readme-typing-svg {
-    font-family: 'Press Start 2P', cursive;
-    text-shadow: 0 0 10px #FF00FF;
-  }
-  body {
-    background: linear-gradient(45deg, #0d1117, #1a1a2e);
-  }
-  h2 {
-    color: #FF00FF;
-    text-shadow: 0 0 10px #FF00FF;
-    font-family: 'Press Start 2P', cursive;
-  }
-  p {
-    color: #00FFFF;
-    font-family: 'Press Start 2P', cursive;
-  }
-</style> 
+</div> 
