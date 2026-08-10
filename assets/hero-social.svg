@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Patrick Scott — Prompt Engineer and Data Analyst (social card)">
+  <defs>
+    <radialGradient id="bigGlow" cx="35%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0e7490" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#0a0f17" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#06090f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="heroTitle" gradientUnits="userSpaceOnUse" x1="80" y1="320" x2="1080" y2="320">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <linearGradient id="bgFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0f17"/>
+      <stop offset="100%" stop-color="#06090f"/>
+    </linearGradient>
+    <linearGradient id="bars" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#0e7490"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <pattern id="gridLg" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#122131" stroke-width="1" opacity="0.5"/>
+    </pattern>
+    <pattern id="scanLg" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="3" height="3" fill="transparent"/>
+      <rect width="3" height="1" fill="#22d3ee" opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgFade)"/>
+  <rect width="1200" height="630" fill="url(#gridLg)"/>
+
+  <!-- top rail -->
+  <line x1="0" y1="36" x2="1200" y2="36" stroke="#122131"/>
+  <g stroke="#22d3ee" opacity="0.7">
+    <line x1="80" y1="30" x2="80" y2="42"/>
+    <line x1="220" y1="30" x2="220" y2="42"/>
+    <line x1="980" y1="30" x2="980" y2="42"/>
+    <line x1="1120" y1="30" x2="1120" y2="42"/>
+  </g>
+  <text x="50" y="26" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" letter-spacing="3" fill="#5b7290">OPERATOR // DOSSIER · CLEARANCE A-Δ</text>
+  <text x="1150" y="26" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" letter-spacing="3" fill="#22d3ee">● REC · LIVE</text>
+
+  <!-- corner brackets -->
+  <g stroke="#22d3ee" stroke-width="3" fill="none" opacity="0.9">
+    <path d="M60 100 L60 70 L90 70"/>
+    <path d="M1140 70 L1110 70 M1140 70 L1140 100"/>
+    <path d="M60 530 L60 560 L90 560"/>
+    <path d="M1140 560 L1110 560 M1140 560 L1140 530"/>
+  </g>
+
+  <!-- glow halo behind title -->
+  <rect width="1200" height="630" fill="url(#bigGlow)"/>
+
+  <!-- eyebrow -->
+  <text x="80" y="220" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="18" letter-spacing="6" fill="#5b7290">
+    <tspan fill="#22d3ee">▣</tspan> CLASSIFIED // OPERATOR DOSSIER
+  </text>
+
+  <!-- hero title -->
+  <text x="80" y="330" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="92" font-weight="700" letter-spacing="10" fill="url(#heroTitle)">PATRICK SCOTT</text>
+
+  <!-- subtitle -->
+  <text x="82" y="380" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="26" letter-spacing="9" fill="#22d3ee">PROMPT ENGINEER ─ DATA ANALYST</text>
+
+  <!-- divider -->
+  <line x1="80" y1="408" x2="500" y2="408" stroke="#0e7490" stroke-width="2"/>
+
+  <!-- status row -->
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="20" letter-spacing="3">
+    <circle cx="90" cy="452" r="6" fill="#22d3ee"/>
+    <text x="108" y="458" fill="#c7d5e3">STATUS: <tspan fill="#22d3ee">ONLINE</tspan></text>
+    <text x="380" y="458" fill="#c7d5e3">SIGNAL: <tspan fill="#22d3ee">100%</tspan></text>
+    <text x="610" y="458" fill="#c7d5e3">SECTOR: <tspan fill="#22d3ee">GITHUB</tspan></text>
+    <text x="860" y="458" fill="#c7d5e3">FOCUS: <tspan fill="#22d3ee">AGENTS · RAG</tspan></text>
+  </g>
+
+  <!-- right signal array (larger) -->
+  <g transform="translate(940 180)">
+    <text x="0" y="-14" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" letter-spacing="3" fill="#5b7290">SIGNAL ARRAY</text>
+    <g fill="url(#bars)">
+      <rect x="0"   y="50" width="14" height="30"/>
+      <rect x="22"  y="38" width="14" height="42"/>
+      <rect x="44"  y="22" width="14" height="58"/>
+      <rect x="66"  y="10" width="14" height="70"/>
+      <rect x="88"  y="28" width="14" height="52"/>
+      <rect x="110" y="4"  width="14" height="76"/>
+      <rect x="132" y="18" width="14" height="62"/>
+      <rect x="154" y="0"  width="14" height="80"/>
+    </g>
+    <line x1="-4" y1="84" x2="180" y2="84" stroke="#122131"/>
+    <text x="0" y="104" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="3" fill="#5b7290">FREQ 2.4GHz · LOCK</text>
+  </g>
+
+  <!-- arsenal strip -->
+  <g transform="translate(80 510)">
+    <text x="0" y="0" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" letter-spacing="3" fill="#5b7290">▸ ARSENAL</text>
+    <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" letter-spacing="2" fill="#c7d5e3">
+      <text x="0"   y="28">PYTHON</text>
+      <text x="100" y="28">TYPESCRIPT</text>
+      <text x="240" y="28">SQL</text>
+      <text x="310" y="28">PANDAS</text>
+      <text x="410" y="28">TABLEAU</text>
+      <text x="530" y="28">PROMPT ENG</text>
+      <text x="670" y="28">RAG</text>
+      <text x="730" y="28">AI AGENTS</text>
+      <text x="850" y="28" fill="#22d3ee">n8n</text>
+    </g>
+  </g>
+
+  <!-- anomaly chip -->
+  <g transform="translate(820 580)">
+    <rect width="360" height="30" rx="2" fill="#120c03" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="14" y="20" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" letter-spacing="3" fill="#f59e0b">▲ ANOMALY: AUTONOMY-DRIVEN</text>
+  </g>
+
+  <!-- bottom rail -->
+  <line x1="0" y1="594" x2="1200" y2="594" stroke="#122131"/>
+  <text x="50" y="615" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="3" fill="#5b7290">▮ END OF TRANSMISSION · github.com/Patrickscott999</text>
+  <text x="1150" y="615" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="3" fill="#22d3ee">SIGNAL LOCK</text>
+
+  <!-- scanline overlay -->
+  <rect width="1200" height="630" fill="url(#scanLg)" pointer-events="none"/>
+</svg>

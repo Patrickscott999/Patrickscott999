@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340" role="img" aria-label="Operator dossier banner — Patrick Scott, Prompt Engineer and Data Analyst">
+  <defs>
+    <radialGradient id="glow" cx="40%" cy="58%" r="58%">
+      <stop offset="0%" stop-color="#0e7490" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#0a0f17" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#06090f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleFade" gradientUnits="userSpaceOnUse" x1="78" y1="172" x2="780" y2="172">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <linearGradient id="bgFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0f17"/>
+      <stop offset="100%" stop-color="#06090f"/>
+    </linearGradient>
+    <linearGradient id="signalBar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#0e7490"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0 L0 0 0 30" fill="none" stroke="#122131" stroke-width="1" opacity="0.55"/>
+    </pattern>
+    <pattern id="scan" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="3" height="3" fill="transparent"/>
+      <rect width="3" height="1" fill="#22d3ee" opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <!-- base layers (no opaque overlays) -->
+  <rect width="900" height="340" fill="url(#bgFade)"/>
+  <rect width="900" height="340" fill="url(#grid)"/>
+
+  <!-- top status rail -->
+  <line x1="0" y1="24" x2="900" y2="24" stroke="#122131" stroke-width="1"/>
+  <g stroke="#22d3ee" stroke-width="1" opacity="0.7">
+    <line x1="60" y1="20" x2="60" y2="28"/>
+    <line x1="160" y1="20" x2="160" y2="28"/>
+    <line x1="740" y1="20" x2="740" y2="28"/>
+    <line x1="840" y1="20" x2="840" y2="28"/>
+  </g>
+  <text x="30" y="18" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#5b7290">SYSTEM // OPERATOR INTERFACE v2.6</text>
+  <text x="870" y="18" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#22d3ee">● REC</text>
+
+  <!-- soft cyan glow under title -->
+  <rect width="900" height="340" fill="url(#glow)"/>
+
+  <!-- corner brackets -->
+  <g stroke="#22d3ee" stroke-width="2" fill="none" opacity="0.9">
+    <path d="M40 70 L40 44 L66 44"/>
+    <path d="M860 44 L834 44 M860 44 L860 70"/>
+    <path d="M40 300 L40 326 L66 326"/>
+    <path d="M860 326 L834 326 M860 326 L860 300"/>
+  </g>
+
+  <!-- eyebrow -->
+  <text x="80" y="120" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" letter-spacing="5" fill="#5b7290">
+    <tspan fill="#22d3ee">▣</tspan> CLASSIFIED // OPERATOR DOSSIER
+  </text>
+
+  <!-- title (no filter, no overlap) -->
+  <text x="78" y="172" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="46" font-weight="700" letter-spacing="5" fill="url(#titleFade)">PATRICK SCOTT</text>
+
+  <!-- subtitle -->
+  <text x="80" y="202" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="16" letter-spacing="7" fill="#22d3ee">PROMPT ENGINEER ─ DATA ANALYST</text>
+
+  <!-- divider -->
+  <line x1="80" y1="218" x2="390" y2="218" stroke="#0e7490" stroke-width="1"/>
+
+  <!-- status row -->
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" letter-spacing="2">
+    <circle cx="86" cy="244" r="4" fill="#22d3ee"/>
+    <text x="98" y="248" fill="#c7d5e3">STATUS: <tspan fill="#22d3ee">ONLINE</tspan></text>
+    <text x="250" y="248" fill="#c7d5e3">SIGNAL: <tspan fill="#22d3ee">100%</tspan></text>
+    <text x="380" y="248" fill="#c7d5e3">SECTOR: <tspan fill="#22d3ee">GITHUB</tspan></text>
+  </g>
+
+  <!-- right telemetry: signal array -->
+  <g transform="translate(660 120)">
+    <text x="0" y="-12" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#5b7290">SIGNAL ARRAY</text>
+    <g fill="url(#signalBar)">
+      <rect x="0" y="40" width="10" height="20"/>
+      <rect x="16" y="30" width="10" height="30"/>
+      <rect x="32" y="18" width="10" height="42"/>
+      <rect x="48" y="8" width="10" height="52"/>
+      <rect x="64" y="22" width="10" height="38"/>
+      <rect x="80" y="4" width="10" height="56"/>
+      <rect x="96" y="14" width="10" height="46"/>
+      <rect x="112" y="0" width="10" height="60"/>
+    </g>
+    <line x1="-2" y1="62" x2="126" y2="62" stroke="#122131" stroke-width="1"/>
+    <text x="0" y="78" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="10" letter-spacing="2" fill="#5b7290">FREQ 2.4GHz · LOCK</text>
+  </g>
+
+  <!-- amber anomaly chip (the one warm accent in a cool HUD) -->
+  <g transform="translate(610 288)">
+    <rect width="270" height="26" rx="2" fill="#120c03" stroke="#f59e0b" stroke-width="1"/>
+    <text x="12" y="18" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#f59e0b">▲ ANOMALY: AUTONOMY-DRIVEN</text>
+  </g>
+
+  <!-- top-most scanline overlay (transparent fill, won't hide content) -->
+  <rect width="900" height="340" fill="url(#scan)" pointer-events="none"/>
+</svg>
